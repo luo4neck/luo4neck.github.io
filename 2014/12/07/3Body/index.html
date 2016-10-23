@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016 | Hexo</title>
+  <title>3Body | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://luo4neck.github.io/archives/2016/index.html">
+  <meta name="description" content="3Body is an independent program aims to simulate 3-body motion. This article will record the progress and fun points of the program. 
+The structure of the program is Python but the simulation part is">
+<meta property="og:type" content="article">
+<meta property="og:title" content="3Body">
+<meta property="og:url" content="http://luo4neck.github.io/2014/12/07/3Body/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="3Body is an independent program aims to simulate 3-body motion. This article will record the progress and fun points of the program. 
+The structure of the program is Python but the simulation part is">
+<meta property="og:updated_time" content="2016-10-23T19:15:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="3Body">
+<meta name="twitter:description" content="3Body is an independent program aims to simulate 3-body motion. This article will record the progress and fun points of the program. 
+The structure of the program is Python but the simulation part is">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,39 +66,80 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="https:/github.com/luo4neck/luo4neck.github.io/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="https:/github.com/luo4neck/luo4neck.github.io/2016/10/23/hello-world/" class="archive-article-date">
-  <time datetime="2016-10-23T19:15:49.651Z" itemprop="datePublished">Oct 23</time>
+        <section id="main"><article id="post-3Body" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="https:/github.com/luo4neck/luo4neck.github.io/2014/12/07/3Body/" class="article-date">
+  <time datetime="2014-12-07T21:13:41.000Z" itemprop="datePublished">2014-12-07</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="https:/github.com/luo4neck/luo4neck.github.io/categories/tech-技术/">tech==技术</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="https:/github.com/luo4neck/luo4neck.github.io/2016/10/23/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      3Body
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>3Body is an independent program aims to simulate 3-body motion. This article will record the progress and fun points of the program. </p>
+<p>The structure of the program is Python but the simulation part is written in C++ to speed up. As a python beginner, hope this program could be a good practice. Following blocks are useful links on different topics, which I am planning to improve my ability in. </p>
+<p>/<em> ===================== Makefile Related Links ===================== </em>/</p>
+<p>/<em> ===================== Py&lt;-&gt;C++ Related Links ===================== </em>/</p>
+<p>The default return variable from C function to python is int, if what we want to return is double or something else, where wont show any warning but the result should be wrong. To change this, we have to do something like:</p>
+<p>xx.restype = ctypes.c_double // for return value..<br>xx.argtype = ctypes.c_int // for input argument..<br>xx.argtypes = ctypes.c_int, ctypes.c_double // for input arguments..</p>
+<p>Another point is that the support of long double of Python is poor, I have not actually meet any problem about long double but note this here to keep this in mind.</p>
+<p>/<em> =====================  const   Related Links ===================== </em>/</p>
+<p><a href="http://www.cnblogs.com/yc_sunniwell/archive/2010/07/14/1777416.html" target="_blank" rel="external">http://www.cnblogs.com/yc_sunniwell/archive/2010/07/14/1777416.html</a></p>
+<p>/<em> ===================== C++ file Related Links ===================== </em>/</p>
+<p>/<em> ==================== hexo blog Related Links ===================== </em>/</p>
+<p><a href="http://zipperary.com/2013/05/30/hexo-guide-4/" target="_blank" rel="external">http://zipperary.com/2013/05/30/hexo-guide-4/</a></p>
+<p>I am still learning how to use hexo lol.</p>
+<p>2014 Winter, @Dublin</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://luo4neck.github.iohttps://github.com/luo4neck/luo4neck.github.io/2014/12/07/3Body/" data-id="ciun0liir00051t9595b9x4j6" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="https:/github.com/luo4neck/luo4neck.github.io/tags/tech/">tech</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="https:/github.com/luo4neck/luo4neck.github.io/2014/12/18/How-Google-Translate-Works/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          How Google Translate Works
+        
+      </div>
+    </a>
+  
+  
+    <a href="https:/github.com/luo4neck/luo4neck.github.io/2014/11/30/MPI-and-pthread-Synchronization/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">MPI and pthread Synchronization</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
